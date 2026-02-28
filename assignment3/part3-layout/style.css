@@ -88,3 +88,17 @@ main.grid article {
 main.grid aside {
   flex: 1;
 }
+
+.photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.photos img {
+  width: 100%;
+  display: block;
+}
