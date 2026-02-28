@@ -64,3 +64,37 @@ p {
 section p:first-of-type {
   text-indent: 2rem;
 }
+
+/* ===== Link Styling ===== */
+
+a {
+  color: #8b0000;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #5a0000;
+}
+
+a:hover,
+a:focus {
+  color: #b22222;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+/* External link icon */
+
+a[href^="http"]::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+  background-image: url("external-link-52.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
