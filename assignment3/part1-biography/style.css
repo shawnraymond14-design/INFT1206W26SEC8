@@ -74,3 +74,13 @@ ul {
 li {
   margin-bottom: 10px;
 }
+
+/* ===== Final Polish ===== */
+
+a {
+  transition: color 0.3s ease;
+}
+
+ul {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
