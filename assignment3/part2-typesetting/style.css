@@ -138,3 +138,13 @@ nav a:hover,
 nav a:focus {
   background-color: #b22222;
 }
+
+/* ===== Final Polish ===== */
+
+p {
+  margin: 1rem 0;
+}
+
+main {
+  font-size: 1rem;
+}
