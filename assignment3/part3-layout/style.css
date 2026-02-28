@@ -70,3 +70,8 @@ nav {
   top: 0;
   z-index: 10;
 }
+
+.feature {
+  float: left;
+  margin: 0 20px 20px 0;
+}
