@@ -44,3 +44,5 @@ function generateStory() {
   story.style.visibility = "visible";
 }
 // commit 2 change
+
+// commit 3 change
