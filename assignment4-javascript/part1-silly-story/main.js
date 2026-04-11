@@ -50,3 +50,5 @@ function generateStory() {
 // commit 4 change
 
 // commit 5 change
+
+// fix pages
